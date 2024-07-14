@@ -1,5 +1,5 @@
 //module WifiControlGo
-module github.com/M001-byte/WifiControl
+module github.com/M1001-byte/WifiControl
 
 go 1.22.5
 
