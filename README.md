@@ -15,7 +15,7 @@ sudo pacman -S iwd
 ```
 ## Installation
 ```bash
-go install github.com/M1001-byte/WifiControl
+go install github.com/M1001-byte/WifiControl@latest
 ```
     
 ## Usage
