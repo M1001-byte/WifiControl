@@ -38,7 +38,7 @@ func removeBlankStrings(slice []string) []string {
 func printSlice(slice []string, cursorPostion int) {
 	fmt.Print("\033[H\033[2J") // clear
 	fmt.Printf("\033[38;5;240m-----------------------------------------------------------------------------------\033[0m\n")
-	fmt.Printf("\tUse w/a/s/d or arrows to select wifi, and (R) to reload, (Q) to quit.\n")
+	fmt.Printf("\tUse w/s or up/down to select wifi, and (R) to reload, (Q) to quit.\n")
 	fmt.Printf("\033[38;5;240m-----------------------------------------------------------------------------------\033[0m\n")
 	fmt.Printf("\n %-3s %-32s %-15s %-5s \n", "", "ESSID", "SECURITY", "SIGNAL")
 
